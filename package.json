@@ -82,7 +82,7 @@
     "lodash": "^4.11.1",
     "node-sass": "^3.7.0",
     "npm-run-all": "^3.0.0",
-    "offline-plugin": "^3.4.1",
+    "offline-plugin": "^5.0.4",
     "opn": "4.0.1",
     "parse5": "^2.1.5",
     "postcss-loader": "^0.9.1",
