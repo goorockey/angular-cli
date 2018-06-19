@@ -42,7 +42,7 @@
     "core-js": "^2.4.0",
     "css-loader": "^0.23.1",
     "denodeify": "^1.2.1",
-    "ember-cli": "2.5.0",
+    "ember-cli": "2.12.0",
     "ember-cli-string-utils": "^1.0.0",
     "enhanced-resolve": "^2.2.2",
     "exit": "^0.1.2",
@@ -59,7 +59,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.8.0",
     "leek": "0.0.21",
-    "less": "^2.7.1",
+    "less": "^3.0.2",
     "less-loader": "^2.2.3",
     "lodash": "^4.11.1",
     "node-sass": "^3.7.0",
@@ -68,7 +68,7 @@
     "opn": "4.0.1",
     "parse5": "^2.1.5",
     "postcss-loader": "^0.9.1",
-    "protractor": "^3.3.0",
+    "protractor": "^4.0.0",
     "raw-loader": "^0.5.1",
     "remap-istanbul": "^0.6.4",
     "resolve": "^1.1.7",
@@ -95,12 +95,18 @@
     "webpack-dev-server": "2.1.0-beta.3",
     "webpack-md5-hash": "0.0.5",
     "webpack-merge": "^0.14.0",
-    "zone.js": "^0.6.23"
+    "zone.js": "^0.6.23",
+    "snyk": "^1.83.0"
   },
   "ember-addon": {
     "paths": [
       "./"
     ],
     "main": "./addon/index.js"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
