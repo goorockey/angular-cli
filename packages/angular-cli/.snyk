@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - awesome-typescript-loader > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - copy-webpack-plugin > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - string-replace-loader > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - typedoc > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > inquirer > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > portfinder > async > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - protractor > request > form-data > async > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > npm > request > form-data > async > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > broccoli-concat > broccoli-stew > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
+    - ember-cli > ember-cli-preprocess-registry > broccoli-clean-css > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-01T00:06:18.312Z'
