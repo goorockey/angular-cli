@@ -59,7 +59,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.8.0",
     "leek": "0.0.21",
-    "less": "^2.7.1",
+    "less": "^3.0.2",
     "less-loader": "^2.2.3",
     "lodash": "^4.11.1",
     "node-sass": "^3.7.0",
